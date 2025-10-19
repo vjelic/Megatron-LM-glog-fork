@@ -12,7 +12,7 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "ae220d01-0b5a-3710-b7a7-47340773697f",
+              "id": "857edc1d-6af1-3742-9d8d-f4a3a0dd645d",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -36,7 +36,7 @@
               }
             },
             {
-              "id": "857edc1d-6af1-3742-9d8d-f4a3a0dd645d",
+              "id": "1ad74165-8765-37a7-94c6-ceb23695faa0",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -84,7 +84,7 @@
               }
             },
             {
-              "id": "1ad74165-8765-37a7-94c6-ceb23695faa0",
+              "id": "ae220d01-0b5a-3710-b7a7-47340773697f",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -204,7 +204,7 @@
               }
             },
             {
-              "id": "e7afa74c-615c-34a1-9e8b-7c7c1f8c2675",
+              "id": "472a39c9-6298-3c76-9932-0618a31ba3ea",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -228,7 +228,7 @@
               }
             },
             {
-              "id": "472a39c9-6298-3c76-9932-0618a31ba3ea",
+              "id": "e7afa74c-615c-34a1-9e8b-7c7c1f8c2675",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -420,7 +420,7 @@
               }
             },
             {
-              "id": "44ab83b2-9bc2-326a-84ba-33d69bd3b8dd",
+              "id": "4fe9a6cb-aab4-3efe-a00b-0d51956b7b51",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -444,7 +444,7 @@
               }
             },
             {
-              "id": "4fe9a6cb-aab4-3efe-a00b-0d51956b7b51",
+              "id": "44ab83b2-9bc2-326a-84ba-33d69bd3b8dd",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -612,30 +612,6 @@
               }
             },
             {
-              "id": "70f8b64f-5d6d-3561-ae59-33c4573d1a62",
-              "name": "resources.rules.metadata-category",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.metadata-category"
-              },
-              "fullDescription": {
-                "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "note"
-              },
-              "help": {
-                "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.metadata-category"
-                ]
-              }
-            },
-            {
               "id": "b6bf749e-40f7-3d58-b448-eaf0434a41cb",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
@@ -661,6 +637,30 @@
             },
             {
               "id": "8329e98b-f0b0-3665-b095-c6dd5585c9c7",
+              "name": "resources.rules.metadata-category",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.metadata-category"
+              },
+              "fullDescription": {
+                "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "help": {
+                "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.metadata-category"
+                ]
+              }
+            },
+            {
+              "id": "70f8b64f-5d6d-3561-ae59-33c4573d1a62",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -900,7 +900,7 @@
               }
             },
             {
-              "id": "d481e765-ba1f-3b19-a338-fee2ba37643c",
+              "id": "a837cc0b-1d8f-334f-9613-bade7ef625bc",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -924,7 +924,7 @@
               }
             },
             {
-              "id": "a837cc0b-1d8f-334f-9613-bade7ef625bc",
+              "id": "d481e765-ba1f-3b19-a338-fee2ba37643c",
               "name": "resources.rules.metadata-category",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.metadata-category"
@@ -1812,6 +1812,30 @@
               }
             },
             {
+              "id": "0046adf3-e95a-316f-beca-da03e4fb3f75",
+              "name": "resources.rules.prefer-apt-get",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.prefer-apt-get"
+              },
+              "fullDescription": {
+                "text": "'apt-get' is preferred as an unattended tool for stability. 'apt' is discouraged."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "help": {
+                "text": "'apt-get' is preferred as an unattended tool for stability. 'apt' is discouraged.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "'apt-get' is preferred as an unattended tool for stability. 'apt' is discouraged.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/hadolint/hadolint/wiki/DL3027](https://github.com/hadolint/hadolint/wiki/DL3027)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.prefer-apt-get"
+                ]
+              }
+            },
+            {
               "id": "f014c2d9-2b1a-32fd-aa21-200a362e8d14",
               "name": "resources.rules.missing-pip-no-cache-dir",
               "shortDescription": {
@@ -1860,7 +1884,7 @@
               }
             },
             {
-              "id": "353e019f-124d-31a2-b1c3-506637b7edb9",
+              "id": "cfa5287e-f9b7-376e-8028-c96e673f0017",
               "name": "resources.rules.missing-pip-no-cache-dir",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
@@ -1884,7 +1908,7 @@
               }
             },
             {
-              "id": "cfa5287e-f9b7-376e-8028-c96e673f0017",
+              "id": "353e019f-124d-31a2-b1c3-506637b7edb9",
               "name": "resources.rules.missing-pip-no-cache-dir",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
@@ -1957,6 +1981,30 @@
             },
             {
               "id": "b1dd1078-e281-353c-9df7-b9a448ee5a62",
+              "name": "resources.rules.missing-pip-no-cache-dir",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
+              },
+              "fullDescription": {
+                "text": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "help": {
+                "text": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/hadolint/hadolint/wiki/DL3042](https://github.com/hadolint/hadolint/wiki/DL3042)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.missing-pip-no-cache-dir"
+                ]
+              }
+            },
+            {
+              "id": "12abdf72-dd85-31fe-a366-56b51cd29975",
               "name": "resources.rules.missing-pip-no-cache-dir",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
@@ -2079,30 +2127,6 @@
               }
             },
             {
-              "id": "17695a79-1375-31a3-9de8-7e8b229f3825",
-              "name": "resources.rules.dlint-catastrophic-redos",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
-              },
-              "fullDescription": {
-                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.dlint-catastrophic-redos"
-                ]
-              }
-            },
-            {
               "id": "37913647-dc59-3653-8437-2858e4369685",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
@@ -2127,7 +2151,55 @@
               }
             },
             {
+              "id": "17695a79-1375-31a3-9de8-7e8b229f3825",
+              "name": "resources.rules.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.dlint-catastrophic-redos"
+                ]
+              }
+            },
+            {
               "id": "d53e86c2-1933-3fa8-8cb8-b108b9f77f22",
+              "name": "resources.rules.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.dlint-catastrophic-redos"
+                ]
+              }
+            },
+            {
+              "id": "8d0c2884-ad79-3f6c-a545-aecec7d47c23",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -2396,7 +2468,7 @@
               }
             },
             {
-              "id": "677ea3b7-0ee2-378f-b4cd-ae940c83c3d5",
+              "id": "adde6752-960b-306f-a6b6-d5e8c59c9dc2",
               "name": "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch",
               "shortDescription": {
                 "text": "Opengrep Finding: trailofbits.python.pickles-in-pytorch.pickles-in-pytorch"
@@ -2421,7 +2493,7 @@
               }
             },
             {
-              "id": "adde6752-960b-306f-a6b6-d5e8c59c9dc2",
+              "id": "677ea3b7-0ee2-378f-b4cd-ae940c83c3d5",
               "name": "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch",
               "shortDescription": {
                 "text": "Opengrep Finding: trailofbits.python.pickles-in-pytorch.pickles-in-pytorch"
@@ -2544,6 +2616,30 @@
               }
             },
             {
+              "id": "5a7effe7-b036-3630-8225-97b6d9aaae62",
+              "name": "resources.rules.return-in-init",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-in-init"
+              },
+              "fullDescription": {
+                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-in-init"
+                ]
+              }
+            },
+            {
               "id": "77c3f191-a584-3036-a846-c278be91c648",
               "name": "resources.rules.return-in-init",
               "shortDescription": {
@@ -2568,7 +2664,7 @@
               }
             },
             {
-              "id": "5a7effe7-b036-3630-8225-97b6d9aaae62",
+              "id": "7ef10dc5-9ab2-3faf-af3e-8d7ff686a84f",
               "name": "resources.rules.return-in-init",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-in-init"
@@ -2664,6 +2760,31 @@
               }
             },
             {
+              "id": "7ea3b954-ec08-33d1-a087-6e323c342e9c",
+              "name": "trailofbits.python.pickles-in-numpy.pickles-in-numpy",
+              "shortDescription": {
+                "text": "Opengrep Finding: trailofbits.python.pickles-in-numpy.pickles-in-numpy"
+              },
+              "fullDescription": {
+                "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "helpUri": "https://semgrep.dev/r/trailofbits.python.pickles-in-numpy.pickles-in-numpy",
+              "help": {
+                "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/trailofbits.python.pickles-in-numpy.pickles-in-numpy)\n - [https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "trailofbits.python.pickles-in-numpy.pickles-in-numpy"
+                ]
+              }
+            },
+            {
               "id": "1137ebac-7f50-3bad-8493-5a703a80c9c1",
               "name": "trailofbits.python.pickles-in-numpy.pickles-in-numpy",
               "shortDescription": {
@@ -2738,6 +2859,31 @@
               }
             },
             {
+              "id": "0ffcf69e-d395-3c55-adc4-328d61ddaf47",
+              "name": "trailofbits.python.pickles-in-numpy.pickles-in-numpy",
+              "shortDescription": {
+                "text": "Opengrep Finding: trailofbits.python.pickles-in-numpy.pickles-in-numpy"
+              },
+              "fullDescription": {
+                "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "helpUri": "https://semgrep.dev/r/trailofbits.python.pickles-in-numpy.pickles-in-numpy",
+              "help": {
+                "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/trailofbits.python.pickles-in-numpy.pickles-in-numpy)\n - [https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "trailofbits.python.pickles-in-numpy.pickles-in-numpy"
+                ]
+              }
+            },
+            {
               "id": "c08729e6-87ff-329d-87fe-36afe85b6be4",
               "name": "trailofbits.python.pickles-in-numpy.pickles-in-numpy",
               "shortDescription": {
@@ -2759,6 +2905,30 @@
                 "precision": "very-high",
                 "tags": [
                   "trailofbits.python.pickles-in-numpy.pickles-in-numpy"
+                ]
+              }
+            },
+            {
+              "id": "8e6c810c-f5e9-3c9e-aeee-111bcfdeb9d1",
+              "name": "resources.rules.raptor-suspicious-assert",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
+              },
+              "fullDescription": {
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://legends2k.github.io/note/assert_vs_if/](https://legends2k.github.io/note/assert_vs_if/)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.raptor-suspicious-assert"
                 ]
               }
             },
@@ -2859,7 +3029,7 @@
               }
             },
             {
-              "id": "054c9746-d020-3041-8fb7-dc4bc37f642f",
+              "id": "3cacbb61-0981-34a2-ad2c-469b9c22fd24",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -2907,7 +3077,7 @@
               }
             },
             {
-              "id": "fd9c0b56-ce10-34bf-b1b0-7b489d41c582",
+              "id": "054c9746-d020-3041-8fb7-dc4bc37f642f",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -2932,6 +3102,30 @@
             },
             {
               "id": "d30823ca-2868-36db-bdd6-3b52bdd88225",
+              "name": "resources.rules.raptor-suspicious-assert",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
+              },
+              "fullDescription": {
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://legends2k.github.io/note/assert_vs_if/](https://legends2k.github.io/note/assert_vs_if/)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.raptor-suspicious-assert"
+                ]
+              }
+            },
+            {
+              "id": "fd9c0b56-ce10-34bf-b1b0-7b489d41c582",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -3003,7 +3197,7 @@
               }
             },
             {
-              "id": "004818e5-e306-31eb-a411-3487fbe883e0",
+              "id": "913b58b8-26a1-393e-8d11-ea26af72f58e",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -3027,7 +3221,7 @@
               }
             },
             {
-              "id": "913b58b8-26a1-393e-8d11-ea26af72f58e",
+              "id": "004818e5-e306-31eb-a411-3487fbe883e0",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -3095,6 +3289,30 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.raptor-mismatched-memory-management-cpp"
+                ]
+              }
+            },
+            {
+              "id": "c5fec9a0-13e3-33ca-bd10-36de6f0b3a70",
+              "name": "resources.rules.open-never-closed",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.open-never-closed"
+              },
+              "fullDescription": {
+                "text": "file object opened without corresponding close"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "file object opened without corresponding close\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "file object opened without corresponding close\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.open-never-closed"
                 ]
               }
             },
@@ -3588,6 +3806,30 @@
               }
             },
             {
+              "id": "1d3d80fe-ec06-339e-8a7d-1029709a8315",
+              "name": "resources.rules.return-in-init",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-in-init"
+              },
+              "fullDescription": {
+                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-in-init"
+                ]
+              }
+            },
+            {
               "id": "8d7ff5fa-21f2-3b6e-9b69-3f196e6b46d7",
               "name": "resources.rules.return-in-init",
               "shortDescription": {
@@ -3733,7 +3975,7 @@
               }
             },
             {
-              "id": "cd516095-21a1-3fc6-8208-82968ce5de22",
+              "id": "d0047869-2b40-397d-ab1a-307291296535",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -3757,7 +3999,7 @@
               }
             },
             {
-              "id": "d0047869-2b40-397d-ab1a-307291296535",
+              "id": "cd516095-21a1-3fc6-8208-82968ce5de22",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -4124,30 +4366,6 @@
               }
             },
             {
-              "id": "fd42a7c2-a12d-3549-aca0-b8952f839cb3",
-              "name": "resources.rules.return-not-in-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-not-in-function"
-              },
-              "fullDescription": {
-                "text": "`return` only makes sense inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-not-in-function"
-                ]
-              }
-            },
-            {
               "id": "e62e244f-68f0-374e-950b-3c12e7fc69fa",
               "name": "resources.rules.return-in-init",
               "shortDescription": {
@@ -4168,6 +4386,30 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.return-in-init"
+                ]
+              }
+            },
+            {
+              "id": "fd42a7c2-a12d-3549-aca0-b8952f839cb3",
+              "name": "resources.rules.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-not-in-function"
                 ]
               }
             },
@@ -4222,30 +4464,6 @@
               }
             },
             {
-              "id": "765849ac-d637-3dbe-aee7-19a3afc52ebe",
-              "name": "resources.rules.return-in-init",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-in-init"
-              },
-              "fullDescription": {
-                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-in-init"
-                ]
-              }
-            },
-            {
               "id": "7067799c-6553-34d0-9a6b-8a7354a06a59",
               "name": "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch",
               "shortDescription": {
@@ -4267,6 +4485,30 @@
                 "precision": "very-high",
                 "tags": [
                   "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch"
+                ]
+              }
+            },
+            {
+              "id": "765849ac-d637-3dbe-aee7-19a3afc52ebe",
+              "name": "resources.rules.return-in-init",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-in-init"
+              },
+              "fullDescription": {
+                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` should never appear inside a class __init__ function. This will cause a runtime error.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-in-init"
                 ]
               }
             },
@@ -4732,7 +4974,7 @@
               }
             },
             {
-              "id": "1a92e1ab-fb86-3f89-9fab-77959ff90dc8",
+              "id": "f6a99f9b-fcb9-3b37-a047-b875c753889f",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -4757,7 +4999,7 @@
               }
             },
             {
-              "id": "f6a99f9b-fcb9-3b37-a047-b875c753889f",
+              "id": "1a92e1ab-fb86-3f89-9fab-77959ff90dc8",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -5418,7 +5660,7 @@
               }
             },
             {
-              "id": "e188b00b-9cb1-3449-bbee-70534e185329",
+              "id": "b56d9923-bea0-34c1-adfe-3c8eba3cfffe",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -5442,7 +5684,7 @@
               }
             },
             {
-              "id": "b56d9923-bea0-34c1-adfe-3c8eba3cfffe",
+              "id": "e188b00b-9cb1-3449-bbee-70534e185329",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -5927,7 +6169,7 @@
               }
             },
             {
-              "id": "6d2e3dee-36a2-338f-9bf0-e4289381f5b1",
+              "id": "1d675686-1160-37d5-928c-4a99f17bbd5c",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -5951,7 +6193,7 @@
               }
             },
             {
-              "id": "1d675686-1160-37d5-928c-4a99f17bbd5c",
+              "id": "6d2e3dee-36a2-338f-9bf0-e4289381f5b1",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.dlint-catastrophic-redos"
@@ -6291,7 +6533,7 @@
               }
             },
             {
-              "id": "b8775aef-9fbd-3236-9b1f-f79245ce3f2e",
+              "id": "98318fa0-d877-32d6-8961-3a2990440515",
               "name": "python.lang.security.audit.non-literal-import.non-literal-import",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.audit.non-literal-import.non-literal-import"
@@ -6316,7 +6558,7 @@
               }
             },
             {
-              "id": "98318fa0-d877-32d6-8961-3a2990440515",
+              "id": "b8775aef-9fbd-3236-9b1f-f79245ce3f2e",
               "name": "python.lang.security.audit.non-literal-import.non-literal-import",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.audit.non-literal-import.non-literal-import"
@@ -6514,31 +6756,6 @@
               }
             },
             {
-              "id": "d59c42eb-918e-37c9-8116-b517c24c6e24",
-              "name": "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch",
-              "shortDescription": {
-                "text": "Opengrep Finding: trailofbits.python.pickles-in-pytorch.pickles-in-pytorch"
-              },
-              "fullDescription": {
-                "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "helpUri": "https://semgrep.dev/r/trailofbits.python.pickles-in-pytorch.pickles-in-pytorch",
-              "help": {
-                "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/trailofbits.python.pickles-in-pytorch.pickles-in-pytorch)\n - [https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)\n"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch"
-                ]
-              }
-            },
-            {
               "id": "baf675f1-698b-3d4d-a166-836e76510e45",
               "name": "trailofbits.python.pickles-in-pytorch.pickles-in-pytorch",
               "shortDescription": {
@@ -6588,7 +6805,7 @@
               }
             },
             {
-              "id": "f90a52a9-d18d-3a91-952d-611d8d0dfc32",
+              "id": "e80a67e1-e426-3ae7-a281-8ab1750949bf",
               "name": "resources.rules.use-sys-exit",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.use-sys-exit"
@@ -6612,7 +6829,7 @@
               }
             },
             {
-              "id": "e80a67e1-e426-3ae7-a281-8ab1750949bf",
+              "id": "f90a52a9-d18d-3a91-952d-611d8d0dfc32",
               "name": "resources.rules.use-sys-exit",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.use-sys-exit"
@@ -7458,7 +7675,7 @@
               }
             },
             {
-              "id": "ef028e8a-45b9-33c9-a2fc-7fdeb6383375",
+              "id": "ad79a059-15ac-3f32-91c3-23942e49fad7",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -7483,7 +7700,7 @@
               }
             },
             {
-              "id": "ad79a059-15ac-3f32-91c3-23942e49fad7",
+              "id": "ef028e8a-45b9-33c9-a2fc-7fdeb6383375",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -7964,6 +8181,30 @@
               }
             },
             {
+              "id": "7d596deb-6ac8-3e04-8c2e-44558f5615ec",
+              "name": "resources.rules.missing-pip-no-cache-dir",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
+              },
+              "fullDescription": {
+                "text": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "help": {
+                "text": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/hadolint/hadolint/wiki/DL3042](https://github.com/hadolint/hadolint/wiki/DL3042)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.missing-pip-no-cache-dir"
+                ]
+              }
+            },
+            {
               "id": "1af80e43-70f9-36a0-a0a7-1eaf48e88ae7",
               "name": "resources.rules.prefer-apt-get",
               "shortDescription": {
@@ -8013,6 +8254,30 @@
             },
             {
               "id": "ea6bc0ef-7a78-3f1b-89b5-f0391890f3fc",
+              "name": "resources.rules.missing-pip-no-cache-dir",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
+              },
+              "fullDescription": {
+                "text": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "help": {
+                "text": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "This '$PIP install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://github.com/hadolint/hadolint/wiki/DL3042](https://github.com/hadolint/hadolint/wiki/DL3042)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.missing-pip-no-cache-dir"
+                ]
+              }
+            },
+            {
+              "id": "3af5be57-163a-3885-a093-d24deafd8174",
               "name": "resources.rules.missing-pip-no-cache-dir",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.missing-pip-no-cache-dir"
@@ -8576,37 +8841,6 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "ae220d01-0b5a-3710-b7a7-47340773697f",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": ".gitlab-ci.yml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 7,
-                  "endLine": 4,
-                  "endColumn": 18,
-                  "snippet": {
-                    "text": "    - if: $CI_PROJECT_NAMESPACE != \"ADLR\"\n      when: never"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "5a876d4bfe23ce942d70ad865ac33ec0f505b32fcd4a591defc4ebad8023669fffbb96286435145dd981a6dfd16af367c61b267914c05c0bbce06e34f53b37c6_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "857edc1d-6af1-3742-9d8d-f4a3a0dd645d",
           "kind": "fail",
           "level": "warning",
@@ -8634,6 +8868,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "01a286c87edae1626409d8e21f091a5a74fe87441f534509d64c8417f48ec25df921c18b3c9b96b0afbf0f231127837431376a360358b9c24835a66e672dd437_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "1ad74165-8765-37a7-94c6-ceb23695faa0",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".gitlab-ci.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 7,
+                  "endLine": 9,
+                  "endColumn": 28,
+                  "snippet": {
+                    "text": "    - if: $CI_PIPELINE_SOURCE == \"schedule\"\n      auto_cancel:\n        on_new_commit: none"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "45ca7e63e86ce5e61e03b1e029e6a95bbd997b7f0086c52f4f2b285b7313b95edb9947a32e01561f9ec9bcc64ef79ec2ccfaa0fa173eadc92c6a347bcc5d5d8c_0"
           },
           "properties": {}
         },
@@ -8669,7 +8934,7 @@
           "properties": {}
         },
         {
-          "ruleId": "1ad74165-8765-37a7-94c6-ceb23695faa0",
+          "ruleId": "ae220d01-0b5a-3710-b7a7-47340773697f",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8683,19 +8948,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 7,
+                  "startLine": 3,
                   "startColumn": 7,
-                  "endLine": 9,
-                  "endColumn": 28,
+                  "endLine": 4,
+                  "endColumn": 18,
                   "snippet": {
-                    "text": "    - if: $CI_PIPELINE_SOURCE == \"schedule\"\n      auto_cancel:\n        on_new_commit: none"
+                    "text": "    - if: $CI_PROJECT_NAMESPACE != \"ADLR\"\n      when: never"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "45ca7e63e86ce5e61e03b1e029e6a95bbd997b7f0086c52f4f2b285b7313b95edb9947a32e01561f9ec9bcc64ef79ec2ccfaa0fa173eadc92c6a347bcc5d5d8c_0"
+            "matchBasedId/v1": "5a876d4bfe23ce942d70ad865ac33ec0f505b32fcd4a591defc4ebad8023669fffbb96286435145dd981a6dfd16af367c61b267914c05c0bbce06e34f53b37c6_0"
           },
           "properties": {}
         },
@@ -8824,37 +9089,6 @@
           "properties": {}
         },
         {
-          "ruleId": "e7afa74c-615c-34a1-9e8b-7c7c1f8c2675",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": ".gitlab-ci.yml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 47,
-                  "startColumn": 7,
-                  "endLine": 50,
-                  "endColumn": 22,
-                  "snippet": {
-                    "text": "    - if: $CI_PIPELINE_SOURCE == \"merge_request_event\" && $CI_MERGE_REQUEST_TARGET_BRANCH_SHA != \"\"\n      variables:\n        FUNCTIONAL_TEST: 'no'\n        PUBLISH: 'no'"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "2a7648ef21efb525673cf91d81111aed3634a029f58737db4189d8afb4495ba168ac5d8a1c1a34dabfbfe7a90ee7c8ecafcd7eb3764a196c74cdcede783047e6_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "472a39c9-6298-3c76-9932-0618a31ba3ea",
           "kind": "fail",
           "level": "warning",
@@ -8882,6 +9116,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "8ca7c65e36a8c1e49789f2b1eb3b6d50368d21e943cb469669ebb559156ab0432bb44379cf39894d6fa07a8c286e96411b9cbe6ddf8cda292bfc3ba53c99fc7a_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "e7afa74c-615c-34a1-9e8b-7c7c1f8c2675",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".gitlab-ci.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 7,
+                  "endLine": 50,
+                  "endColumn": 22,
+                  "snippet": {
+                    "text": "    - if: $CI_PIPELINE_SOURCE == \"merge_request_event\" && $CI_MERGE_REQUEST_TARGET_BRANCH_SHA != \"\"\n      variables:\n        FUNCTIONAL_TEST: 'no'\n        PUBLISH: 'no'"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "2a7648ef21efb525673cf91d81111aed3634a029f58737db4189d8afb4495ba168ac5d8a1c1a34dabfbfe7a90ee7c8ecafcd7eb3764a196c74cdcede783047e6_0"
           },
           "properties": {}
         },
@@ -9103,37 +9368,6 @@
           "properties": {}
         },
         {
-          "ruleId": "44ab83b2-9bc2-326a-84ba-33d69bd3b8dd",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": ".gitlab/stages/00.pre.yml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 81,
-                  "startColumn": 7,
-                  "endLine": 81,
-                  "endColumn": 18,
-                  "snippet": {
-                    "text": "    - when: never"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "e0030f0660584d029b40b8e95e3fc366f261e6c66e74b4a55cbade84b4859f99206ff9a33cd246aafb22d1225cfba0a982dfdcf378490a43766f81d4758d129f_3"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "4fe9a6cb-aab4-3efe-a00b-0d51956b7b51",
           "kind": "fail",
           "level": "warning",
@@ -9161,6 +9395,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "1f59be351ab923a6bc6c39888f070be38a674283940bc6e7996246bf498f0e7c1077ef2e28638954cbe59e754eea0ae1289f4b293b9494bd995739e886a7551a_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "44ab83b2-9bc2-326a-84ba-33d69bd3b8dd",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".gitlab/stages/00.pre.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 7,
+                  "endLine": 81,
+                  "endColumn": 18,
+                  "snippet": {
+                    "text": "    - when: never"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "e0030f0660584d029b40b8e95e3fc366f261e6c66e74b4a55cbade84b4859f99206ff9a33cd246aafb22d1225cfba0a982dfdcf378490a43766f81d4758d129f_3"
           },
           "properties": {}
         },
@@ -9351,37 +9616,6 @@
           "properties": {}
         },
         {
-          "ruleId": "70f8b64f-5d6d-3561-ae59-33c4573d1a62",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": ".gitlab/stages/01.test.yml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 320,
-                  "startColumn": 7,
-                  "endLine": 320,
-                  "endColumn": 18,
-                  "snippet": {
-                    "text": "    - when: never"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "c849da2a38a6843fb70e4e60eb4f17b38a4d88c746f08799af630e9390ca84465cc422deacc590264125fa45ce93e102e004fdf615399cd051afcbe23dbab6bb_2"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "b6bf749e-40f7-3d58-b448-eaf0434a41cb",
           "kind": "fail",
           "level": "warning",
@@ -9440,6 +9674,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "4aec55f910781dd92dd661225a392d674775a74316c384588548c881d4d176a96292ac8a649318e4e62cba15c2f08a2f03bd6c93edba840b4fe5056b647ebb1c_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "70f8b64f-5d6d-3561-ae59-33c4573d1a62",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".gitlab/stages/01.test.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 7,
+                  "endLine": 320,
+                  "endColumn": 18,
+                  "snippet": {
+                    "text": "    - when: never"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "c849da2a38a6843fb70e4e60eb4f17b38a4d88c746f08799af630e9390ca84465cc422deacc590264125fa45ce93e102e004fdf615399cd051afcbe23dbab6bb_2"
           },
           "properties": {}
         },
@@ -9723,37 +9988,6 @@
           "properties": {}
         },
         {
-          "ruleId": "d481e765-ba1f-3b19-a338-fee2ba37643c",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": ".gitlab/stages/03.publish.yml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 7,
-                  "endLine": 12,
-                  "endColumn": 19,
-                  "snippet": {
-                    "text": "    - if: $CI_COMMIT_BRANCH =~ /^core_r/ && $PUBLISH == \"yes\" && $PUBLISH_SCOPE == \"release\"\n      when: manual"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "f0eb7bf680102532cce016d7826553393eb74fa01aa84309705a76d3365a9593e90fafddd5bea835a03a4427cf1331e075404c929b4f71ffcc7f7f3d51434629_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "a837cc0b-1d8f-334f-9613-bade7ef625bc",
           "kind": "fail",
           "level": "warning",
@@ -9781,6 +10015,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "52a85503bf543e738234cbf7411a829639adc616a258ed31495a58e5e2cb19db7781f14548c16cb497a1a8aec72f9a70ad44e40b6cbf820c64294ad89ab6b0c0_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "d481e765-ba1f-3b19-a338-fee2ba37643c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This Semgrep rule is missing a valid 'category' field in the 'metadata'. 'category' must be one of 'security', 'correctness', 'best-practice', 'performance', 'maintainability', or 'portability'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".gitlab/stages/03.publish.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 7,
+                  "endLine": 12,
+                  "endColumn": 19,
+                  "snippet": {
+                    "text": "    - if: $CI_COMMIT_BRANCH =~ /^core_r/ && $PUBLISH == \"yes\" && $PUBLISH_SCOPE == \"release\"\n      when: manual"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "f0eb7bf680102532cce016d7826553393eb74fa01aa84309705a76d3365a9593e90fafddd5bea835a03a4427cf1331e075404c929b4f71ffcc7f7f3d51434629_0"
           },
           "properties": {}
         },
@@ -10870,6 +11135,37 @@
           "properties": {}
         },
         {
+          "ruleId": "e07f395f-607c-38a2-920c-53066aea2649",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Images should be tagged with an explicit version to produce deterministic container images."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/Dockerfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 10,
+                  "snippet": {
+                    "text": "FROM nvcr.io/nvidia/pytorch:24.02-py3"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "a94f2adb2531e4032b6c8f75a236142244b160451e8f49eb42a470b9766f14bfedd29d123474144d2104f8fc5ba29ce720a14c14d7631bcdd6136eaeaaa5ce49_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "0046adf3-e95a-316f-beca-da03e4fb3f75",
           "kind": "fail",
           "level": "warning",
@@ -10963,37 +11259,6 @@
           "properties": {}
         },
         {
-          "ruleId": "353e019f-124d-31a2-b1c3-506637b7edb9",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "This 'pip install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "examples/multimodal/Dockerfile",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 1,
-                  "endLine": 20,
-                  "endColumn": 23,
-                  "snippet": {
-                    "text": "RUN pip install pytest-cov pytest_mock nltk wrapt"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "433272c21d6884899c973687d6cd4eef2b56ebf0822e6e16fdf50dcf3f52f0dfd5cb38502c1173f55cbab8f383490e692f07917325ba87c45720c418fec5888a_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "cfa5287e-f9b7-376e-8028-c96e673f0017",
           "kind": "fail",
           "level": "warning",
@@ -11021,6 +11286,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "680f1aa75c257e211f39653c960aad1344e894204b7f53d783ae2969f4bfee247b18c9a1f5029416a4cdd2dbe4f3293373a9d36d17b025dbe1c7fcf87695e890_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "353e019f-124d-31a2-b1c3-506637b7edb9",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This 'pip install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/Dockerfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 1,
+                  "endLine": 20,
+                  "endColumn": 23,
+                  "snippet": {
+                    "text": "RUN pip install pytest-cov pytest_mock nltk wrapt"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "433272c21d6884899c973687d6cd4eef2b56ebf0822e6e16fdf50dcf3f52f0dfd5cb38502c1173f55cbab8f383490e692f07917325ba87c45720c418fec5888a_0"
           },
           "properties": {}
         },
@@ -11083,6 +11379,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "00cf7d5f5ffcde1c95a936834f4637fe61db5ffab163d1ba10147b40f564fed74a26bb88b6ae6bb4b791a217ef09dfd794a5a4e2373ee84fc89fbfb1c60c5781_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "b1dd1078-e281-353c-9df7-b9a448ee5a62",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This 'pip install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/Dockerfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 30,
+                  "snippet": {
+                    "text": "RUN pip install pycocoevalcap megatron-energon mistral-common tiktoken"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7a553a5f05c36c96f69a1cd4e42de3ee7e5872d6d03fdd2a2ce0cc3f58a282d1df8f8a598ccd0b39726515ea86ab322e4ba42383733a5316f63a1f3122413409_0"
           },
           "properties": {}
         },
@@ -11242,37 +11569,6 @@
           "properties": {}
         },
         {
-          "ruleId": "17695a79-1375-31a3-9de8-7e8b229f3825",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Regex `r'[a-zA-Z]+'` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "examples/multimodal/evaluate_mathvista.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 62,
-                  "startColumn": 16,
-                  "endLine": 62,
-                  "endColumn": 46,
-                  "snippet": {
-                    "text": "    alphabet = re.findall(r'[a-zA-Z]+', text)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "c4f4e85e38480fe3836eb2b878e2426b928c1c4a7a16c230de2d8666c9263c96c368d4d8d697bdf917c8830a6a1e56bee866211e98b9c5bdb1cd52175ed5c6c7_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "37913647-dc59-3653-8437-2858e4369685",
           "kind": "fail",
           "level": "warning",
@@ -11300,6 +11596,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "6f9ff166471dca1db616230a0d3ad846843479485d1ebd666d11a72ea272bad29818ae145a4cf4d1cacb0dd5e5f18450373a237e596d910e4db6ca3933591e49_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "17695a79-1375-31a3-9de8-7e8b229f3825",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `r'[a-zA-Z]+'` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/evaluate_mathvista.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 16,
+                  "endLine": 62,
+                  "endColumn": 46,
+                  "snippet": {
+                    "text": "    alphabet = re.findall(r'[a-zA-Z]+', text)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "c4f4e85e38480fe3836eb2b878e2426b928c1c4a7a16c230de2d8666c9263c96c368d4d8d697bdf917c8830a6a1e56bee866211e98b9c5bdb1cd52175ed5c6c7_0"
           },
           "properties": {}
         },
@@ -11490,6 +11817,37 @@
           "properties": {}
         },
         {
+          "ruleId": "7b5f6711-770d-35d6-87f1-6de34252e82d",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/evaluation_datasets.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 60,
+                  "endLine": 433,
+                  "endColumn": 76,
+                  "snippet": {
+                    "text": "        ground_truth = sorted(ground_truth, key=lambda gt: gt[\"video_path\"])"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "4a0dac76793257e27acdf9a1bdd205ef8d118ad56824bd7279502e1c13ac3f58aa9224b1d1ac068b48ffbfd325648a4993681e299e7f6badcc5444c2d019070d_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "9358d694-428e-38d7-a617-81dfe95e8bdb",
           "kind": "fail",
           "level": "warning",
@@ -11548,6 +11906,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "90a6657a42e33325ea838b2614294083c47c65eae2f285e168136f70b0467968bcec64a58a97cf31b93b156051d68fc087903388625f6b884991ec90f1658247_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "b8251fe4-8d2e-3b38-9570-5de061b0602d",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/model_converter/siglip_converter.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 9,
+                  "endLine": 126,
+                  "endColumn": 55,
+                  "snippet": {
+                    "text": "        torch.save(new_state_dicts[i], output_path_tp)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "c2bf558126179dabccf7376097903387be6859f45378dcda8e6ed7d1d5b70fad345923fb473e1da1ea46a16c7403155f4451f9686c679ac729930917537c7f4c_0"
           },
           "properties": {}
         },
@@ -11614,37 +12003,6 @@
           "properties": {}
         },
         {
-          "ruleId": "677ea3b7-0ee2-378f-b4cd-ae940c83c3d5",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "examples/multimodal/nvlm/pp_checkpoint_converter.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 136,
-                  "startColumn": 9,
-                  "endLine": 136,
-                  "endColumn": 40,
-                  "snippet": {
-                    "text": "        torch.save(new_sd, output_path)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "c81d8bfdd392298c3d5b0f464ac2268dbc36df0309211efe0084f5818207a84633e4544ae6b4b31f01f62e35a3ad7b4e893c88f11ed39482ea7a617dca5c1004_3"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "adde6752-960b-306f-a6b6-d5e8c59c9dc2",
           "kind": "fail",
           "level": "warning",
@@ -11672,6 +12030,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "c81d8bfdd392298c3d5b0f464ac2268dbc36df0309211efe0084f5818207a84633e4544ae6b4b31f01f62e35a3ad7b4e893c88f11ed39482ea7a617dca5c1004_2"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "677ea3b7-0ee2-378f-b4cd-ae940c83c3d5",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "examples/multimodal/nvlm/pp_checkpoint_converter.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 9,
+                  "endLine": 136,
+                  "endColumn": 40,
+                  "snippet": {
+                    "text": "        torch.save(new_sd, output_path)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "c81d8bfdd392298c3d5b0f464ac2268dbc36df0309211efe0084f5818207a84633e4544ae6b4b31f01f62e35a3ad7b4e893c88f11ed39482ea7a617dca5c1004_3"
           },
           "properties": {}
         },
@@ -11800,37 +12189,6 @@
           "properties": {}
         },
         {
-          "ruleId": "77c3f191-a584-3036-a846-c278be91c648",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "megatron/core/datasets/blended_dataset.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 51,
-                  "startColumn": 34,
-                  "endLine": 51,
-                  "endColumn": 39,
-                  "snippet": {
-                    "text": "        assert all(map(lambda _: _ > 0, weights))"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "d7b4aa5ba1b81f3acf2f05fe4fe75743e37c5cfd38ded5b3e584f84991c4d4a1772b34d35a64a7ed812d4d6b5ff761dc4df7211cbb4bbe58c6942916a1730fc0_2"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "5a7effe7-b036-3630-8225-97b6d9aaae62",
           "kind": "fail",
           "level": "warning",
@@ -11862,6 +12220,37 @@
           "properties": {}
         },
         {
+          "ruleId": "77c3f191-a584-3036-a846-c278be91c648",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/blended_dataset.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 34,
+                  "endLine": 51,
+                  "endColumn": 39,
+                  "snippet": {
+                    "text": "        assert all(map(lambda _: _ > 0, weights))"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "d7b4aa5ba1b81f3acf2f05fe4fe75743e37c5cfd38ded5b3e584f84991c4d4a1772b34d35a64a7ed812d4d6b5ff761dc4df7211cbb4bbe58c6942916a1730fc0_2"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "7ef10dc5-9ab2-3faf-af3e-8d7ff686a84f",
           "kind": "fail",
           "level": "warning",
@@ -11889,6 +12278,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "d7b4aa5ba1b81f3acf2f05fe4fe75743e37c5cfd38ded5b3e584f84991c4d4a1772b34d35a64a7ed812d4d6b5ff761dc4df7211cbb4bbe58c6942916a1730fc0_3"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "f8469a25-8b1b-3116-9a89-4b57e1f59744",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/blended_dataset.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 38,
+                  "endLine": 54,
+                  "endColumn": 49,
+                  "snippet": {
+                    "text": "            assert all(map(lambda _: _ == int(_), weights))"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "d7b4aa5ba1b81f3acf2f05fe4fe75743e37c5cfd38ded5b3e584f84991c4d4a1772b34d35a64a7ed812d4d6b5ff761dc4df7211cbb4bbe58c6942916a1730fc0_4"
           },
           "properties": {}
         },
@@ -11986,6 +12406,37 @@
           "properties": {}
         },
         {
+          "ruleId": "1137ebac-7f50-3bad-8493-5a703a80c9c1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/blended_dataset.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 32,
+                  "endLine": 197,
+                  "endColumn": 10,
+                  "snippet": {
+                    "text": "        dataset_sample_index = numpy.load(\n            path_to_dataset_sample_index, allow_pickle=True, mmap_mode='r'\n        )"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "66004ff455d1bd54e3eb7c9be5abe463e95aab4aff46dc534f705e4531d7508b8fcbdb29016120abf61e80968dd5b2e3fa338b4c25862a349999bde10124fb1b_1"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "11f18e41-b251-318f-b643-c421dc220735",
           "kind": "fail",
           "level": "warning",
@@ -12048,6 +12499,37 @@
           "properties": {}
         },
         {
+          "ruleId": "0ffcf69e-d395-3c55-adc4-328d61ddaf47",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider using fickling or switching to a safer serialization method"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/gpt_dataset.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 24,
+                  "endLine": 505,
+                  "endColumn": 90,
+                  "snippet": {
+                    "text": "        sample_index = numpy.load(path_to_sample_index, allow_pickle=True, mmap_mode='r')"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "adf2adfe77e64e25cf4a7e38384b4ac76a214348706a4976cf6acf22aa15af393c769f0c61c5653638c79051e2aaab4daf826b9869261695e7f3a6855bef0c94_1"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "c08729e6-87ff-329d-87fe-36afe85b6be4",
           "kind": "fail",
           "level": "warning",
@@ -12075,6 +12557,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "adf2adfe77e64e25cf4a7e38384b4ac76a214348706a4976cf6acf22aa15af393c769f0c61c5653638c79051e2aaab4daf826b9869261695e7f3a6855bef0c94_2"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "8e6c810c-f5e9-3c9e-aeee-111bcfdeb9d1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/helpers.cpp",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 3,
+                  "endLine": 160,
+                  "endColumn": 25,
+                  "snippet": {
+                    "text": "  assert(seq_length > 1);"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7d3c0812a1f14a9c5682c667c21854e1c822aa4d4479615c598d4c3a62dbdec94c7da6180c309323db75684bdd1d2064ea77c3127343952372ca759180a5c116_0"
           },
           "properties": {}
         },
@@ -12203,7 +12716,7 @@
           "properties": {}
         },
         {
-          "ruleId": "054c9746-d020-3041-8fb7-dc4bc37f642f",
+          "ruleId": "3cacbb61-0981-34a2-ad2c-469b9c22fd24",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12217,19 +12730,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 285,
+                  "startLine": 283,
                   "startColumn": 3,
-                  "endLine": 285,
-                  "endColumn": 32,
+                  "endLine": 283,
+                  "endColumn": 29,
                   "snippet": {
-                    "text": "  assert(short_seq_prob <= 1.0);"
+                    "text": "  assert(max_seq_length > 1);"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "1d8cb21f6728093e2f4d1925c691d91a3fbee33b38e4165ba54da7d2aba37cfd9d28356c6e75203cb812f144c3824414c8c8d3767a8ee0656188198a4e757850_0"
+            "matchBasedId/v1": "091d3dd252b5b946c299ca30fb9c2203283e9b7c7fedf72fda7f8db3f2a2eb2e6362513a3ab0700a001dd29292cf7b0509da3b93b1ef6aed1dd84af2435fef8d_0"
           },
           "properties": {}
         },
@@ -12265,7 +12778,7 @@
           "properties": {}
         },
         {
-          "ruleId": "fd9c0b56-ce10-34bf-b1b0-7b489d41c582",
+          "ruleId": "054c9746-d020-3041-8fb7-dc4bc37f642f",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12279,19 +12792,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 490,
-                  "startColumn": 7,
-                  "endLine": 490,
-                  "endColumn": 30,
+                  "startLine": 285,
+                  "startColumn": 3,
+                  "endLine": 285,
+                  "endColumn": 32,
                   "snippet": {
-                    "text": "      assert(num_samples < 0);"
+                    "text": "  assert(short_seq_prob <= 1.0);"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "8701e79b4bb05903a3b528036a06d3ae6c6754a736fb9283ed3d32f73f7d61cbc83e218d8d22083c7fb46174c33e653e4dba0d36bae912646f46d8d57d67d214_0"
+            "matchBasedId/v1": "1d8cb21f6728093e2f4d1925c691d91a3fbee33b38e4165ba54da7d2aba37cfd9d28356c6e75203cb812f144c3824414c8c8d3767a8ee0656188198a4e757850_0"
           },
           "properties": {}
         },
@@ -12323,6 +12836,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "9d0c1912a3074c03cd6b10580b9ae3a420890d3e40e0c337101120004870527e503b631db92e87151c420acc69172046d111a6ebe62a570682e68b45743dc260_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "fd9c0b56-ce10-34bf-b1b0-7b489d41c582",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/helpers.cpp",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 490,
+                  "startColumn": 7,
+                  "endLine": 490,
+                  "endColumn": 30,
+                  "snippet": {
+                    "text": "      assert(num_samples < 0);"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "8701e79b4bb05903a3b528036a06d3ae6c6754a736fb9283ed3d32f73f7d61cbc83e218d8d22083c7fb46174c33e653e4dba0d36bae912646f46d8d57d67d214_0"
           },
           "properties": {}
         },
@@ -12509,6 +13053,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "cabd77c77f1cda1f3574dc5163f04c33005dd873f16c8848bcc1f89812ceee070b3e514cb136dc35cb08745e46724765027f7107b6b406fbdfb973fe95c752a5_2"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "c5fec9a0-13e3-33ca-bd10-36de6f0b3a70",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "file object opened without corresponding close"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/datasets/indexed_dataset.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 9,
+                  "endLine": 132,
+                  "endColumn": 52,
+                  "snippet": {
+                    "text": "        self.idx_writer = open(self.idx_path, \"wb\")"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "fdfcef39d930dfaf2dfae8f592879bf08e4e8a970545b02c3d109982437aa4bd007cda82a879687ba277f164cdfa6bf71111148fa4bdba53fc7d1ccc5182a785_0"
           },
           "properties": {}
         },
@@ -13133,6 +13708,37 @@
           "properties": {}
         },
         {
+          "ruleId": "1d3d80fe-ec06-339e-8a7d-1029709a8315",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/distributed/param_and_grad_buffer.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 483,
+                  "startColumn": 17,
+                  "endLine": 483,
+                  "endColumn": 51,
+                  "snippet": {
+                    "text": "                return _pad(param_start_index, 64)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "93fc5c5d9a4b1ad3da6ee30836f3e0af9b971af7436255804450f83553a2e9a5dd592d5aabdb8134b9b28d5234edc7f4c26c1dbb84db3f16251f0af7c8f42838_3"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "8d7ff5fa-21f2-3b6e-9b69-3f196e6b46d7",
           "kind": "fail",
           "level": "warning",
@@ -13319,37 +13925,6 @@
           "properties": {}
         },
         {
-          "ruleId": "cd516095-21a1-3fc6-8208-82968ce5de22",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Regex `r'\\.{}\\.'.format(number)` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "megatron/core/export/trtllm/trtllm_layers.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 63,
-                  "startColumn": 41,
-                  "endLine": 63,
-                  "endColumn": 90,
-                  "snippet": {
-                    "text": "            layer_name_without_number = re.sub(r'\\.{}\\.'.format(number), '.', layer_name)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "92ee1f5ccce859e654c166006af9f07b2f68869167e649754a1708fb0cadd452bfaed81a8c7d89f336dab1d93c41600b6da8035ad6d6eab08581255b9eb075bb_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "d0047869-2b40-397d-ab1a-307291296535",
           "kind": "fail",
           "level": "warning",
@@ -13377,6 +13952,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "81e211612b38e59de07e2369de94ac34a5734cd436ac911f107254ece83414242b194862ee045b9d575a32a632bdba694aca35f3ed77516ed83bddbfd60a05d8_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "cd516095-21a1-3fc6-8208-82968ce5de22",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `r'\\.{}\\.'.format(number)` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/export/trtllm/trtllm_layers.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 41,
+                  "endLine": 63,
+                  "endColumn": 90,
+                  "snippet": {
+                    "text": "            layer_name_without_number = re.sub(r'\\.{}\\.'.format(number), '.', layer_name)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "92ee1f5ccce859e654c166006af9f07b2f68869167e649754a1708fb0cadd452bfaed81a8c7d89f336dab1d93c41600b6da8035ad6d6eab08581255b9eb075bb_0"
           },
           "properties": {}
         },
@@ -13846,6 +14452,37 @@
           "properties": {}
         },
         {
+          "ruleId": "fd42a7c2-a12d-3549-aca0-b8952f839cb3",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/core/transformer/spec_utils.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 50,
+                  "endLine": 26,
+                  "endColumn": 52,
+                  "snippet": {
+                    "text": "    params: dict = field(default_factory=lambda: {})"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "bac1f3630c2cacd5c3162d08df99587a043f1b902cb0bc6c86919eec07576b1039f83b9ec155d7639a96b2262320bf8191d219c103f6cbb55bc4dcb5f10b4201_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "9beffb4b-9207-3744-9494-f102aaf30c7b",
           "kind": "fail",
           "level": "warning",
@@ -13908,37 +14545,6 @@
           "properties": {}
         },
         {
-          "ruleId": "765849ac-d637-3dbe-aee7-19a3afc52ebe",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "megatron/legacy/data/autoaugment.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 228,
-                  "startColumn": 13,
-                  "endLine": 228,
-                  "endColumn": 52,
-                  "snippet": {
-                    "text": "            return rotated_filled.convert(img.mode)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "64c5c1c260cb41b0e4675b95a62d08a8a946e6940ee9427dd3fdbc512829ceb18b5436fa91d05f23226bb6967f3c423d868094f78d606fd1dc25ee2df980839c_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "7067799c-6553-34d0-9a6b-8a7354a06a59",
           "kind": "fail",
           "level": "warning",
@@ -13966,6 +14572,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "6b7c4c22031c44bde91aa26a408ed0f54be62898335d2b57edf67b835fd250ce446a3cfa8a6648eb692c938aa50ed8066e7b174e173e8f02698c57e167e23304_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "765849ac-d637-3dbe-aee7-19a3afc52ebe",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/legacy/data/autoaugment.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 13,
+                  "endLine": 228,
+                  "endColumn": 52,
+                  "snippet": {
+                    "text": "            return rotated_filled.convert(img.mode)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "64c5c1c260cb41b0e4675b95a62d08a8a946e6940ee9427dd3fdbc512829ceb18b5436fa91d05f23226bb6967f3c423d868094f78d606fd1dc25ee2df980839c_0"
           },
           "properties": {}
         },
@@ -14559,37 +15196,6 @@
           "properties": {}
         },
         {
-          "ruleId": "1a92e1ab-fb86-3f89-9fab-77959ff90dc8",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "megatron/legacy/data/realm_index.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 112,
-                  "startColumn": 13,
-                  "endLine": 112,
-                  "endColumn": 50,
-                  "snippet": {
-                    "text": "            pickle.dump(self.state(), final_file)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "01243aa71d4245f241300dd8c0d4f032cad19b8f8be5d36402eed7ae6746acd434506f9e23a814e64a55363fa66598e948498ac3dfb2b4d0d6cc7c2c324147d0_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "f6a99f9b-fcb9-3b37-a047-b875c753889f",
           "kind": "fail",
           "level": "warning",
@@ -14617,6 +15223,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "9eab824c31fb4209dc765af2a541262c7c75ff6036c2901941757892723d1d5a277091f9d39b6226ee634b073dc05ba3c5c6500023810877f0631f0d91fa77ea_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "1a92e1ab-fb86-3f89-9fab-77959ff90dc8",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/legacy/data/realm_index.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 13,
+                  "endLine": 112,
+                  "endColumn": 50,
+                  "snippet": {
+                    "text": "            pickle.dump(self.state(), final_file)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "01243aa71d4245f241300dd8c0d4f032cad19b8f8be5d36402eed7ae6746acd434506f9e23a814e64a55363fa66598e948498ac3dfb2b4d0d6cc7c2c324147d0_1"
           },
           "properties": {}
         },
@@ -15427,37 +16064,6 @@
           "properties": {}
         },
         {
-          "ruleId": "e188b00b-9cb1-3449-bbee-70534e185329",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Regex `self.pat` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "megatron/training/tokenizer/gpt2_tokenization.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 242,
-                  "startColumn": 22,
-                  "endLine": 242,
-                  "endColumn": 48,
-                  "snippet": {
-                    "text": "        for token in re.findall(self.pat, text):"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "00bc9de3dc3d8eb80860b7c907db081d1aea57bc29199e5b86613f66584983f7c72061bde781d896745336c6897451bbf0042ddbd8b7dc3ca318f5f9ff0c8d9e_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "b56d9923-bea0-34c1-adfe-3c8eba3cfffe",
           "kind": "fail",
           "level": "warning",
@@ -15485,6 +16091,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "f909f94f7add32bdc24cccfb102f2a6be02d4b79d14384ad958437176f7e544dea4a14b8eea47e74239f1024c5ef5f50b574fc1a5baac0bf97a469c73799a271_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "e188b00b-9cb1-3449-bbee-70534e185329",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `self.pat` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "megatron/training/tokenizer/gpt2_tokenization.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 22,
+                  "endLine": 242,
+                  "endColumn": 48,
+                  "snippet": {
+                    "text": "        for token in re.findall(self.pat, text):"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "00bc9de3dc3d8eb80860b7c907db081d1aea57bc29199e5b86613f66584983f7c72061bde781d896745336c6897451bbf0042ddbd8b7dc3ca318f5f9ff0c8d9e_0"
           },
           "properties": {}
         },
@@ -16078,37 +16715,6 @@
           "properties": {}
         },
         {
-          "ruleId": "6d2e3dee-36a2-338f-9bf0-e4289381f5b1",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Regex `r'\\b(a|an|the)\\b'` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tasks/orqa/unsupervised/qa_utils.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 161,
-                  "startColumn": 16,
-                  "endLine": 161,
-                  "endColumn": 52,
-                  "snippet": {
-                    "text": "        return re.sub(r'\\b(a|an|the)\\b', ' ', text)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "1ab153f0a8177dcf7b3d29dbde1f38a0757649608f95537690eb46637ab37ff63c2a98f4ebcc85e28a5a140da3f918a2e0ce90a848e764c897c4a30da92efcee_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "1d675686-1160-37d5-928c-4a99f17bbd5c",
           "kind": "fail",
           "level": "warning",
@@ -16136,6 +16742,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "cb04ac4b8c090a9d968d13cd60473fdb4272cb97c6759cf941adc547bcb2f2e569967047499b2e883f4650d500fb8a728501ef7fcb2e5bc409f994860f42c092_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "6d2e3dee-36a2-338f-9bf0-e4289381f5b1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `r'\\b(a|an|the)\\b'` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tasks/orqa/unsupervised/qa_utils.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 16,
+                  "endLine": 161,
+                  "endColumn": 52,
+                  "snippet": {
+                    "text": "        return re.sub(r'\\b(a|an|the)\\b', ' ', text)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "1ab153f0a8177dcf7b3d29dbde1f38a0757649608f95537690eb46637ab37ff63c2a98f4ebcc85e28a5a140da3f918a2e0ce90a848e764c897c4a30da92efcee_0"
           },
           "properties": {}
         },
@@ -16543,37 +17180,6 @@
           "properties": {}
         },
         {
-          "ruleId": "b8775aef-9fbd-3236-9b1f-f79245ce3f2e",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Untrusted user input in `importlib.import_module()` function allows an attacker to load arbitrary code. Avoid dynamic values in `importlib.import_module()` or use a whitelist to prevent running untrusted code."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tools/checkpoint/convert.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 98,
-                  "startColumn": 22,
-                  "endLine": 98,
-                  "endColumn": 58,
-                  "snippet": {
-                    "text": "            plugin = importlib.import_module(module_name)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "291b8298690df044fbefe411113a138435f61eca7f921de861e1de9b50492e111e27291ac6b2fa60fa29ff8eb7c5567473c8c93ca0f134b746cd9f6eae773a55_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "98318fa0-d877-32d6-8961-3a2990440515",
           "kind": "fail",
           "level": "warning",
@@ -16601,6 +17207,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "291b8298690df044fbefe411113a138435f61eca7f921de861e1de9b50492e111e27291ac6b2fa60fa29ff8eb7c5567473c8c93ca0f134b746cd9f6eae773a55_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "b8775aef-9fbd-3236-9b1f-f79245ce3f2e",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Untrusted user input in `importlib.import_module()` function allows an attacker to load arbitrary code. Avoid dynamic values in `importlib.import_module()` or use a whitelist to prevent running untrusted code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tools/checkpoint/convert.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 22,
+                  "endLine": 98,
+                  "endColumn": 58,
+                  "snippet": {
+                    "text": "            plugin = importlib.import_module(module_name)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "291b8298690df044fbefe411113a138435f61eca7f921de861e1de9b50492e111e27291ac6b2fa60fa29ff8eb7c5567473c8c93ca0f134b746cd9f6eae773a55_1"
           },
           "properties": {}
         },
@@ -16791,37 +17428,6 @@
           "properties": {}
         },
         {
-          "ruleId": "58299f1f-9125-32e0-9dc9-397ce989ffdf",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Functions reliant on pickle can result in arbitrary code execution.  Consider loading from `state_dict`, using fickling, or switching to a safer serialization method like ONNX"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tools/checkpoint/loader_llama_mistral.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 159,
-                  "startColumn": 13,
-                  "endLine": 159,
-                  "endColumn": 123,
-                  "snippet": {
-                    "text": "            torch.load(os.path.join(input_base_path, f\"consolidated.{i:02d}.pth\"), map_location=\"cpu\", weights_only=False)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "8b96ada3db52f2a62c6b530794e15d31cd77a45f5ea114cb1b3028acaed7661e8bb9340e2012461360a031474da8457ff6bb2f8131dca62d4ee57671ea7c0ad3_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "d59c42eb-918e-37c9-8116-b517c24c6e24",
           "kind": "fail",
           "level": "warning",
@@ -16915,37 +17521,6 @@
           "properties": {}
         },
         {
-          "ruleId": "f90a52a9-d18d-3a91-952d-611d8d0dfc32",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tools/checkpoint/loader_llama_mistral.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 503,
-                  "startColumn": 17,
-                  "endLine": 503,
-                  "endColumn": 24,
-                  "snippet": {
-                    "text": "                exit(1)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "ddd283dfaa459148c2727015ca54d372d88e488fe7ce4d6389dea3f92ee9728dc6c4c6b09383acad098daae9859aecc19c4e29753bf444b461f618ea4d3fbb35_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "e80a67e1-e426-3ae7-a281-8ab1750949bf",
           "kind": "fail",
           "level": "warning",
@@ -16973,6 +17548,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "0096514d58e34c7be92bd99923b2b67151c490d1948c4749aa01fe49ccde4d8d165156ce7dae8f1a53c27471112342bc24372ee1d6bc291d7be7a6fbc81828af_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "f90a52a9-d18d-3a91-952d-611d8d0dfc32",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tools/checkpoint/loader_llama_mistral.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 17,
+                  "endLine": 503,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "                exit(1)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "ddd283dfaa459148c2727015ca54d372d88e488fe7ce4d6389dea3f92ee9728dc6c4c6b09383acad098daae9859aecc19c4e29753bf444b461f618ea4d3fbb35_1"
           },
           "properties": {}
         },
@@ -18031,37 +18637,6 @@
           "properties": {}
         },
         {
-          "ruleId": "ef028e8a-45b9-33c9-a2fc-7fdeb6383375",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tools/openwebtext/find_duplicates.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 281,
-                  "startColumn": 13,
-                  "endLine": 281,
-                  "endColumn": 41,
-                  "snippet": {
-                    "text": "            pickle.dump(url_doc, f_save)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "ea9bed266789d0723daf5815996a66137eecbbf55ab1005303441bc3f902e644ee23a9fdaacf8289d1ce204b21c109d928bdf7118d41a58fceece7b2a8551300_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "ad79a059-15ac-3f32-91c3-23942e49fad7",
           "kind": "fail",
           "level": "warning",
@@ -18089,6 +18664,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "ea9bed266789d0723daf5815996a66137eecbbf55ab1005303441bc3f902e644ee23a9fdaacf8289d1ce204b21c109d928bdf7118d41a58fceece7b2a8551300_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "ef028e8a-45b9-33c9-a2fc-7fdeb6383375",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tools/openwebtext/find_duplicates.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 13,
+                  "endLine": 281,
+                  "endColumn": 41,
+                  "snippet": {
+                    "text": "            pickle.dump(url_doc, f_save)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "ea9bed266789d0723daf5815996a66137eecbbf55ab1005303441bc3f902e644ee23a9fdaacf8289d1ce204b21c109d928bdf7118d41a58fceece7b2a8551300_1"
           },
           "properties": {}
         },
@@ -18682,6 +19288,37 @@
           "properties": {}
         },
         {
+          "ruleId": "7d596deb-6ac8-3e04-8c2e-44558f5615ec",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This 'pip install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tools/retro/docker/Dockerfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19,
+                  "snippet": {
+                    "text": "RUN pip install -U faiss-gpu"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9e6192c65e40820d00823fa473969a6a48030de4244c26603a1ee58a29c85b018c5acbff45f17b356c6115b90341c317c8132e29a7867a60a70b17aff1e9f6be_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "1af80e43-70f9-36a0-a0a7-1eaf48e88ae7",
           "kind": "fail",
           "level": "warning",
@@ -18740,6 +19377,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "0e3110aaab32b6dfc1d1088f85d6dfbd80c14f683226afe6525692884ecd479037e930a93f99de12ccb77fece45fbb4b542393499c527e06438d514b0ace50a7_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "ea6bc0ef-7a78-3f1b-89b5-f0391890f3fc",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "This 'pip install' is missing '--no-cache-dir'. This flag prevents\npackage archives from being kept around, thereby reducing image size.\nAdd '--no-cache-dir'.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tools/retro/docker/Dockerfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 1,
+                  "endLine": 9,
+                  "endColumn": 19,
+                  "snippet": {
+                    "text": "RUN pip install -U transformers"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9e6192c65e40820d00823fa473969a6a48030de4244c26603a1ee58a29c85b018c5acbff45f17b356c6115b90341c317c8132e29a7867a60a70b17aff1e9f6be_1"
           },
           "properties": {}
         },
